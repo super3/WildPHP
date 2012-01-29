@@ -1,0 +1,33 @@
+/* Tag Styles */
+body {
+	padding-top: 50px;
+}
+
+/* Multi-line CSS */
+.light-fill {
+	background-color: #f8f8f8;
+	height: 50px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.action-text {
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+}
+.action-box {
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #e1e1e1;
+}
+.action-img {
+	text-align: center;
+}
+
+/* Single Line Hacks */
+.left { float: left; }
+.right { float: right; }
+.small-pad { padding-right: 475px; }
+.pills a{ color: #8f8f8f; }
+.pills a:hover{ color: #999999; background-color: #d6d6d6; }
+.light { background-color: #f8f8f8; }
