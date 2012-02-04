@@ -42,8 +42,7 @@ body {
 /* Single Line Hacks */
 .left { float: left; }
 .right { float: right; }
-.small-pad { padding-right: 475px; }
-.pills a{ color: #8f8f8f; }
-.pills a:hover{ color: #999999; background-color: #d6d6d6; }
+.small-pad { padding-right: 455px; }
 .light { background-color: #f8f8f8; }
 .span1 img { position: relative; left: 20px; top: 3px; }
+.nav { padding-top: 6px;}
