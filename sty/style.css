@@ -44,5 +44,5 @@ body {
 .right { float: right; }
 .small-pad { padding-right: 455px; }
 .light { background-color: #f8f8f8; }
-.span1 img { position: relative; left: 20px; top: 3px; }
+.span1 img { position: relative; left: 40px; top: -2px; }
 .nav { padding-top: 6px;}
