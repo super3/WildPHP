@@ -43,7 +43,7 @@ body {
 /* Single Line Hacks */
 .left { float: left; }
 .right { float: right; }
-.small-pad { padding-right: 455px; }
+.small-pad { padding-right: 540px; }
 .light { background-color: #f8f8f8; }
 .span1 img { position: relative; left: 40px; top: -2px; }
-.nav { padding-top: 6px;}
+.nav { padding-top: 6px; }
