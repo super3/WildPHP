@@ -13,6 +13,12 @@ class Helper {
         }
     }
     
+    public static function showIcon($pageVar, $currPage) {
+        if ($pageVar == $currPage) {
+            echo ' icon-white';
+        }
+    }
+    
     // Show Tutorial Block
     public static function showBlock($title, $url, $img, $desc) {
         echo "<div class=\"span4\" style=\"position: relative; left: -1px;\">";

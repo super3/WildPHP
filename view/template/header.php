@@ -30,12 +30,12 @@
 	<div class="light-fill">
 		<div class="container">
 			<ul class="nav nav-pills">
-                            <li <?php Helper::showActive($page, 'index', true) ?>><a href="index.php">Home</a></li>
-				<li class="small-pad<?php Helper::showActive($page, 'tutorials', false) ?>"><a href="index.php?page=tutorials">Tutorials</a></li>
-				<li><a href="#">Bots</a></li>
-				<li><a href="#">Commands</a></li>  
-				<li><a href="#">Source</a></li>
-				<li><a href="#">Help</a></li>
+                            <li <?php Helper::showActive($page, 'index', true) ?>><a href="index.php"><i class="icon-home <?php Helper::showIcon($page, 'index') ?>"></i> Home</a></li>
+                            <li class="small-pad<?php Helper::showActive($page, 'tutorials', false) ?>"><a href="index.php?page=tutorials"><i class="icon-book <?php Helper::showIcon($page, 'tutorials') ?>"></i> Tutorials</a></li>
+                            <!--<li><a href="#">Bots</a></li>-->
+                            <!--<li><a href="#">Commands</a></li>--> 
+                            <!--<li><a href="#">Source</a></li>-->
+                            <li style="float: right;" <?php Helper::showActive($page, 'help', true) ?>><a href="index.php?page=help"><i class="icon-flag <?php Helper::showIcon($page, 'help') ?>"></i> Help</a></li>
 			</ul>
 		</div>
 	</div>

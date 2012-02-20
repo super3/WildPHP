@@ -5,7 +5,7 @@
 			a PHP based IRC Bot for games, logging, and management
 		</h2>
 		<div class="action-img">
-			<img src="http://placehold.it/800x300" alt="screen">	
+			<img src="view/images/heroimage.png" alt="screen" style="border: 1px dashed #b5b5b5;">	
 		</div>
 	</div>
 </div>
