@@ -1,4 +1,4 @@
-<!-- Le action box -->
+<!-- Action Box -->
 <div class="hero-unit" style="background-color: #f0f0f0; border-bottom: 1px solid #e1e1e1; margin: 0px; margin-bottom:15px; padding: 45px 0px 0px 0px;">
 	<div class="container">
 		<h2 class="action-text"> 
@@ -10,11 +10,12 @@
 	</div>
 </div>
 
-<!-- Le download box -->
+<!-- Download Box -->
 <div class="container">
 	<div class="download-text">
 		Free and Open Source. 
 		<a href="https://github.com/pogosheep/IRC-Bot/zipball/master" class="btn huge btn-primary">Download .ZIP</a>
+                <a href="https://github.com/pogosheep/IRC-Bot/" class="btn huge">GitHub</a>
 		<!--<a href="#" class="btn huge default">Watch Demo</a>-->
 		<hr/>
 	</div>
@@ -30,7 +31,7 @@
 		<div class="span6">
 			<div class="row">
 				<div class="span1">
-					<img src="img/script.png" alt="icon">
+					<img src="view/images/script.png" alt="icon">
 				</div>
 				<div class="span5">
 					<h3>PHP Based</h3>
@@ -39,7 +40,7 @@
 					</p>
 				</div>
 				<div class="span1">
-					<img src="img/blueprint.png" alt="icon">
+					<img src="view/images/blueprint.png" alt="icon">
 				</div>
 				<div class="span5">
 					<h3>Object Orientated</h3>
@@ -48,7 +49,7 @@
 					</p>
 				</div>
 				<div class="span1">
-					<img src="img/mug.png" alt="icon">
+					<img src="view/images/mug.png" alt="icon">
 				</div>
 				<div class="span5">
 					<h3>Easy to use</h3>
@@ -62,7 +63,7 @@
 		<div class="span6">
 			<div class="row">
 				<div class="span1">
-					<img src="img/website.png" alt="icon">
+					<img src="view/images/website.png" alt="icon">
 				</div>
 				<div class="span5">
 					<h3>Cross-Platform</h3>
@@ -71,7 +72,7 @@
 					</p>
 				</div>
 				<div class="span1">
-					<img src="img/pen.png" alt="icon">
+					<img src="view/images/pen.png" alt="icon">
 				</div>
 				<div class="span5">
 					<h3>Extendable</h3>
@@ -80,12 +81,13 @@
 					</p>
 				</div>
 				<div class="span1">
-					<img src="img/users.png" alt="icon">
+					<img src="view/images/users.png" alt="icon">
 				</div>
 				<div class="span5">
 					<h3>Collaborative</h3>
 					<p>
-					We are friendly. Just get in touch with us, or take a look at the source on github and help us improve the bot.
+					We are friendly. Just get in touch with us, or take a look at the <a href="https://github.com/pogosheep/IRC-Bot/">source on github</a> 
+                                        help us improve the bot.
 					</p>
 				</div>
 			</div>

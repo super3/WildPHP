@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>WildPHP</title>
+	<title>WildPHP - IRC Bot, Tutorials, and More!</title>
 	<meta name="description" content="Home of the PHP based IRC Bot. We also have free video tutorials, scripts, and articles!">
 	<meta name="author" content="Super3">
 
@@ -12,11 +12,11 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<link href="sty/bootstrap.css" rel="stylesheet">
-	<link href="sty/style.css" rel="stylesheet">
+	<link href="view/css/bootstrap.css" rel="stylesheet">
+	<link href="view/css/style.css" rel="stylesheet">
 
 	<!-- Favicon  -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="view/images/favicon.ico">
 </head>
 <body>
 
@@ -25,8 +25,8 @@
 	<div class="light-fill">
 		<div class="container">
 			<ul class="nav nav-pills">
-				<li class="active"><a href="#">Home</a></li>
-				<li class="small-pad"><a href="#">Tutorials</a></li>
+				<li <?php if($page == 'index') { echo 'class="active"'; } ?>><a href="index.php">Home</a></li>
+				<li class="small-pad<?php if($page == 'tutorials') { echo ' active'; } ?>"><a href="index.php?page=tutorials">Tutorials</a></li>
 				<li><a href="#">Bots</a></li>
 				<li><a href="#">Commands</a></li>  
 				<li><a href="#">Source</a></li>
