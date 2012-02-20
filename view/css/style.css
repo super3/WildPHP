@@ -48,7 +48,9 @@ h1 {
 /* Single Line Hacks */
 .left { float: left; }
 .right { float: right; }
+.center { text-align: center; }
 .small-pad { padding-right: 540px; }
 .light { background-color: #f8f8f8; }
 .span1 img { position: relative; left: 40px; top: -2px; }
 .nav { padding-top: 6px; }
+.borderplz { border: 1px solid darkgrey; }
