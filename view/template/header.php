@@ -17,6 +17,11 @@
 
 	<!-- Favicon  -->
 	<link rel="shortcut icon" href="view/images/favicon.ico">
+        
+        <!-- PHP Page Helper -->
+        <?php 
+            require_once 'view/functions.php';
+        ?>
 </head>
 <body>
 
@@ -25,8 +30,8 @@
 	<div class="light-fill">
 		<div class="container">
 			<ul class="nav nav-pills">
-				<li <?php if($page == 'index') { echo 'class="active"'; } ?>><a href="index.php">Home</a></li>
-				<li class="small-pad<?php if($page == 'tutorials') { echo ' active'; } ?>"><a href="index.php?page=tutorials">Tutorials</a></li>
+                            <li <?php Helper::showActive($page, 'index', true) ?>><a href="index.php">Home</a></li>
+				<li class="small-pad<?php Helper::showActive($page, 'tutorials', false) ?>"><a href="index.php?page=tutorials">Tutorials</a></li>
 				<li><a href="#">Bots</a></li>
 				<li><a href="#">Commands</a></li>  
 				<li><a href="#">Source</a></li>

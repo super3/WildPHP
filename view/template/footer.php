@@ -1,5 +1,8 @@
+
 <!-- Le footer -->
+
 <div class="container">
+    <hr/>
 <footer>
             <p class="left">
                 &copy; <a href="http://super3.org">Super3.org</a> 2012

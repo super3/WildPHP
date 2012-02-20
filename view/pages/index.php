@@ -1,5 +1,5 @@
 <!-- Action Box -->
-<div class="hero-unit" style="background-color: #f0f0f0; border-bottom: 1px solid #e1e1e1; margin: 0px; margin-bottom:15px; padding: 45px 0px 0px 0px;">
+<div class="hero-unit" style="background-color: #f0f0f0; border-bottom: 1px solid #e1e1e1; margin: 0px; margin-bottom:15px; padding: 0px;">
 	<div class="container">
 		<h2 class="action-text"> 
 			a PHP based IRC Bot for games, logging, and management
@@ -25,7 +25,7 @@
 <div class="container">
 	<!-- Row of columns -->
 	<!-- http://bogo-d.deviantart.com/art/Project-Icons-v-2-1-8-155863784? -->
-	<div class="row" style="border-bottom: 1px solid #e1e1e1; margin-bottom: 15px; padding-bottom: 10px;">
+	<div class="row">
 		
 		<!-- Left Side -->
 		<div class="span6">
