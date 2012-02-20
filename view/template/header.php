@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>WildPHP - IRC Bot, Tutorials, and More!</title>
+	<title>A PHP IRC Bot - WildPHP</title>
 	<meta name="description" content="Home of the PHP based IRC Bot. We also have free video tutorials, scripts, and articles!">
 	<meta name="author" content="Super3">
 
