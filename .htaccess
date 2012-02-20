@@ -1,0 +1,7 @@
+# Set 404 to Homepage
+ErrorDocument 404 http://wildphp.com
+
+# Old URL Redirects
+Redirect /scripts/simple-php-irc-bot/ http://wildphp.com/tutorials.php?page=simple-irc-bot
+Redirect /scripts/simple-php-irc-logger/ http://wildphp.com/tutorials.php?page=simple-irc-logger
+Redirect /articles/removing-the-php-extension-from-a-url/ http://wildphp.com/tutorials.php?page=removing-extension
