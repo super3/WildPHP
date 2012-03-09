@@ -18,10 +18,8 @@
 	<!-- Favicon  -->
 	<link rel="shortcut icon" href="view/images/favicon.ico">
         
-        <!-- PHP Page Helper -->
-        <?php 
-            require_once 'view/functions.php';
-        ?>
+	<!-- PHP Page Helper -->
+	<?php require_once 'view/functions.php'; ?>
 </head>
 <body>
 
@@ -30,12 +28,13 @@
 	<div class="light-fill">
 		<div class="container">
 			<ul class="nav nav-pills">
-                            <li <?php Helper::showActive($page, 'index', true) ?>><a href="index.php"><i class="icon-home <?php Helper::showIcon($page, 'index') ?>"></i> Home</a></li>
-                            <li class="small-pad<?php Helper::showActive($page, 'tutorials', false) ?>"><a href="index.php?page=tutorials"><i class="icon-book <?php Helper::showIcon($page, 'tutorials') ?>"></i> Tutorials</a></li>
-                            <!--<li><a href="#">Bots</a></li>-->
-                            <!--<li><a href="#">Commands</a></li>--> 
-                            <!--<li><a href="#">Source</a></li>-->
-                            <li style="float: right;" <?php Helper::showActive($page, 'help', true) ?>><a href="index.php?page=help"><i class="icon-flag <?php Helper::showIcon($page, 'help') ?>"></i> Help</a></li>
+				<li <?php Helper::showActive($page, 'index', true); ?>><a href="index"><i class="icon-home <?php Helper::showIcon($page, 'index'); ?>"></i> Home</a></li>
+				<li <?php Helper::showActive($page, 'tutorials', true); ?>><a href="tutorials"><i class="icon-book <?php Helper::showIcon($page, 'tutorials'); ?>"></i> Tutorials</a></li>
+				<li <?php Helper::showActive($page, 'code', true); ?>><a href="code"><i class="icon-align-justify <?php Helper::showIcon($page, 'code'); ?>"></i> Code</a></li>
+				<!--<li><a href="#">Bots</a></li>-->
+				<!--<li><a href="#">Commands</a></li>--> 
+				<!--<li><a href="#">Source</a></li>-->
+				<!--li style="float: right;" <?php Helper::showActive($page, 'help', true) ?>><a href="help"><i class="icon-flag <?php Helper::showIcon($page, 'help') ?>"></i> Help</a></li>-->
 			</ul>
 		</div>
 	</div>
