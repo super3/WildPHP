@@ -3,17 +3,17 @@
     <div>
         <p>
         If you are developing a website in PHP then most of your files will end in the .PHP file extension. This
-        works just fine for your development, but when you release your website the .php extension is just 
-        added characters in the URL.
+        works just fine for your development purposes, but when you release your website the .php extension is just 
+        added characters in your URL.
         </p>
         <p>
-            Most websites that use PHP simple have the extension of the page removed. This leads to cleaner, shorter,
+            Most websites that use PHP simply have the extension of the page removed. This leads to cleaner, shorter,
             and easier to read URLs. It is also better for your SEO or Search Engine Optimization.
         </p>
         <p>
             Using a simple .htaccess&nbsp;file with a few lines we can automatically add the .php file
             &nbsp;extension&nbsp;to any URL without it. This means something like example.com/page will look
-            like example.com/page.php to the computer, but still retain the cleaner look of example.com/page
+            like example.com/page.php to the server, but still retain the cleaner look of example.com/page
             to the user. Note: You can still explicitly call any page even with this change.
         </p>
 
@@ -25,7 +25,7 @@
 
         <h2>Step #2</h2>
         <p>
-            Add the following lines of code to your&nbsp;.htaccess file this will add a .php file extension to
+            Add the following lines of code to your&nbsp;.htaccess file. This will add a .php file extension to
             all the pages without a file extension.
         </p>
         <pre>
