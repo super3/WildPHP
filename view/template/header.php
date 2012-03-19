@@ -5,6 +5,7 @@
 	<title>A PHP IRC Bot - WildPHP</title>
 	<meta name="description" content="Home of the PHP based IRC Bot. We also have free video tutorials, scripts, and articles!">
 	<meta name="author" content="Super3">
+        <meta name="google-site-verification" content="OVrnDhG71tITwg18HzNw1vkrhtx9mnY6agdQPC1XyG4" />
 
 	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
 	<!--[if lt IE 9]>
