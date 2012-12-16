@@ -1,0 +1,38 @@
+Create a file called index.php and save it to the main folder of your PHP hosting. This file will always display when you go to that folder in your browser. We will be editing the code in this file during the basic tutorials as we will won't really need more than one or two files.
+
+For the PHP code to run you have to put it in between whats called a  PHP scripting block. A PHP scripting block basically just starts with <strong>&lt;?php</strong> and ends with a <strong>?&gt;</strong>.
+[code="php"]&lt;?php
+//Your code goes here.
+?&gt;[/code]
+
+So that it can be properly viewed in a web browser, we must enclose our PHP code in some basic HTML tags. Your code should look something like this:
+
+[code="php"]
+<html>
+<body>
+
+<?php
+//Your code goes here.
+?>
+
+</body>
+</html>
+[/code]
+
+Now that we got a base file to work from lets write some PHP code. The first statement we will learn is the <strong>echo</strong> statement. With this statement you can print text to the screen by putting the text in between quotes. Something like this:
+
+[code="php"]
+<html>
+<body>
+
+<?php
+echo "Hello World";
+?>
+
+</body>
+</html>
+[/code]
+
+This statement will print "Hello World" on the screen. Well there you have it! You have run your first PHP script. You can replace the text inside to quotes to get PHP to print any statement you want. 
+
+<h1><a href="javascript://"Next&gt;</a></h1>
